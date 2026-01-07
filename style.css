@@ -17,14 +17,20 @@ body {
 /* HERO */
 .hero {
     text-align: center;
-    padding: 90px 20px;
-    background: linear-gradient(180deg, #0b3c5d, #020617);
+    padding: 80px 20px;
 }
 
 .logo {
-    width: 220px;
-    margin-bottom: 22px;
-    filter: drop-shadow(0 0 14px rgba(56,189,248,0.8));
+    width: 280px;       /* 🔥 double size */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .logo {
+        width: 200px;
+    }
 }
 
 .hero h1 {
