@@ -19,6 +19,17 @@ Every time I push code to the main branch, the website gets deployed automatical
 
 ### GitHub Push → GitHub Actions → AWS S3 → Live Website
 
+### Demo website is available at: http://weits-demo.s3-website-us-east-1.amazonaws.com
+
+### I Learned from This Project
+•	How CI/CD pipelines actually work in production
+•	Secure handling of AWS credentials
+•	Automating deployments without servers
+•	Using GitHub Actions instead of traditional CI tools
+•	Debugging real pipeline failures
+•	Understanding IAM permissions practically
+
+
 ### GitHub Actions Workflow
 The workflow file is placed inside:.github/workflows/deploy.yml
 
@@ -45,14 +56,6 @@ jobs:
         run: aws s3 sync . s3://weits-demo --delete
 
 
-### Demo website is available at: http://weits-demo.s3-website-us-east-1.amazonaws.com
 
-### I Learned from This Project
-•	How CI/CD pipelines actually work in production
-•	Secure handling of AWS credentials
-•	Automating deployments without servers
-•	Using GitHub Actions instead of traditional CI tools
-•	Debugging real pipeline failures
-•	Understanding IAM permissions practically
 
 
