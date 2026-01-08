@@ -1,7 +1,6 @@
-### WEITSDeploying a Live DevOps Portfolio Website using GitHub Actions on AWS S3
-This project is a hands-on DevOps implementation where I built and deployed my personal DevOps portfolio website using AWS S3 and GitHub Actions.
+### Deploying a Live DevOps Portfolio Website using GitHub Actions on AWS S3 | CI/CD automation
 
-The main goal of this project was to understand real-world CI/CD, automate deployments, and host a website without managing servers.
+This project is a hands-on DevOps implementation where I built and deployed my DevOps portfolio website using AWS S3 and GitHub Actions. The main goal of this project was to understand real-world CI/CD, automate deployments, and host a website without managing servers.
 Every time I push code to the main branch, the website gets deployed automatically.
 
 ## Tools & Technologies Used
@@ -44,7 +43,7 @@ jobs:
         run: aws s3 sync . s3://weits-demo --delete
 
 
-Once deployed, the website is available at: ## http://weits-demo.s3-website-us-east-1.amazonaws.com
+Once deployed, the website is available at: http://weits-demo.s3-website-us-east-1.amazonaws.com
 
  I Learned from This Project
 •	How CI/CD pipelines actually work in production
