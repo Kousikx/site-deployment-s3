@@ -23,6 +23,7 @@ Every time I push code to the main branch, the website gets deployed automatical
 The workflow file is placed inside:.github/workflows/deploy.yml
 
 ### Deployment Workflow
+```yaml
 name: Website Deployment
 on:
   push:
