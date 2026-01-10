@@ -1,5 +1,8 @@
 name: Daily README Update
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "30 18 * * *"   # Runs daily at 12:00 AM IST
