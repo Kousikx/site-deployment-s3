@@ -10,7 +10,7 @@ Every time I push code to the main branch, the website gets deployed automatical
 •	GitHub Actions – CI/CD automation.
 •	Ubuntu (GitHub Runner) – Deployment environment.
 
-### Deployment Works
+### Deployment Works ----
 1.	I push changes to the main branch
 2.	GitHub Actions automatically starts the workflow
 3.	AWS credentials are securely loaded using GitHub Secrets
