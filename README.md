@@ -27,7 +27,7 @@ Every time I push code to the main branch, the website gets deployed automatical
 •	Automating deployments without servers
 •	Using GitHub Actions instead of traditional CI tools
 •	Debugging real pipeline failures
-•	Understanding IAM permissions practically
+Last updated on 10 Jan 2026
 
 
 ### GitHub Actions Workflow
