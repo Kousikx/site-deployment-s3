@@ -19,8 +19,6 @@ Every time I push code to the main branch, the website gets deployed automatical
 
 ### GitHub Push → GitHub Actions → AWS S3 → Live Website
 
-### Demo website is available at: http://weits-demo.s3-website-us-east-1.amazonaws.com
-
 ### I Learned from This Project
 •	How CI/CD pipelines actually work in production
 •	Secure handling of AWS credentials
